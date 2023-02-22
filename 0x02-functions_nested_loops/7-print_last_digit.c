@@ -10,7 +10,8 @@
 
 int print_last_digit(int i)
 {
-	int k;
+	int i;
+	char k;
 
 	k = i % 10
 	If(i < 0)
