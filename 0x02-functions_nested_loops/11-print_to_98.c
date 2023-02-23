@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_to_98 - function to print natural numbers
  *
- *@n: fucntion parameters
+ *@n: function parameter
  *
  *Return: always 0
  */
@@ -37,5 +38,5 @@ void print_to_98(int n)
 		printf("\n");
 	}
 	else if (n == 98)
-		printf("%d, ", n)
+		printf("%d, ", n);
 }
