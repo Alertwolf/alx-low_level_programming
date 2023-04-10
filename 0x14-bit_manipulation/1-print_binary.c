@@ -2,12 +2,13 @@
 
 /*
  * print_binary - Prints the binary representation of a number.
- * @m: The number to be printed in binary.
+ * @n: The number to be printed in binary.
  */
-void print_binary(unsigned long int m)
-{
-	if (m > 1)
-		print_binary(m >> 1);
 
-	_putchar((m & 1) + '0');
+void print_binary(unsigned long int n)
+{
+	if (n > 1)
+		print_binary(n >> 1);
+
+	_putchar((n & 1) + '0');
 }
